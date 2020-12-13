@@ -1,0 +1,87 @@
+#root, html, body{
+    margin: 0;
+    padding: 0%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2B2B52;
+}  
+img{
+    margin: 3%;
+    border-radius: 25px;
+}
+
+.outsideText{
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: 3px 3px  #000000;
+    margin: 2%;
+  }
+  #h3{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+.cardApp {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card {
+    background-color: whitesmoke;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 2%;
+    box-shadow: 10px 10px;
+}
+.revealButton {
+    margin-bottom: 2%;
+    position: relative;
+    outline: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 60px;
+    width: 210px;
+    opacity: 1;
+    border: 2px solid rgba(27, 29, 31, 0.6);
+  }
+  .revealButton span {
+    color: #151618;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+  } 
+.button {
+    position: relative;
+    outline: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 60px;
+    width: 250px;
+    opacity: 1;
+    border: 2px solid rgba(27, 29, 31, 0.6);
+  }
+  .button span {
+    color: #151618;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+  }
+
+
+ 
